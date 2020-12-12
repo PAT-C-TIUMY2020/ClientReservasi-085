@@ -1,6 +1,6 @@
 ﻿namespace ClientReservasi_085
 {
-    partial class Form1
+    partial class Reservasi
     {
         /// <summary>
         /// Required designer variable.
@@ -60,7 +60,7 @@
             this.dtPemesanan.RowTemplate.Height = 24;
             this.dtPemesanan.Size = new System.Drawing.Size(1235, 303);
             this.dtPemesanan.TabIndex = 0;
-            this.dtPemesanan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtPemesanan_CellContentClick);
+            this.dtPemesanan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtPemesanan_CellClick);
             // 
             // pemesananBindingSource
             // 
