@@ -16,7 +16,7 @@ namespace ClientReservasi_085
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Reservasi());
+            Application.Run(new Login());
         }
     }
 }

@@ -25,13 +25,13 @@ namespace ClientReservasi_085
 
         private void comboBoxKategori_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboBoxKategori.Items.Add("Admin");
-            comboBoxKategori.Items.Add("Resepsionis");
+            
         }
 
         private void Regsiter_Load(object sender, EventArgs e)
         {
-
+            comboBoxKategori.Items.Add("Admin");
+            comboBoxKategori.Items.Add("Resepsionis");
         }
 
         private void btSimpan_Click(object sender, EventArgs e)
